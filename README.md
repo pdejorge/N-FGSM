@@ -15,3 +15,15 @@ You may perform N-FGSM Adversarial Training with CIFAR10, CIFAR100 and SVHN data
 python train.py --epsilon 8 --alpha 8 --unif 2 --dataset CIFAR10 --architecture preactresnet18 --out-dir path/to/results --root-model-dir /path/to/trained/models/
 ```
 The configurations for all datasets, models and epsilon radii can be found in `experiments.sh`
+
+## Bibtex
+If you use this code, please consider citing:
+
+```
+@article{de2022make,
+  title={Make Some Noise: Reliable and Efficient Single-Step Adversarial Training},
+  author={de Jorge, Pau and Bibi, Adel and Volpi, Riccardo and Sanyal, Amartya and Torr, Philip HS and Rogez, Gr{\'e}gory and Dokania, Puneet K},
+  journal={arXiv preprint arXiv:2202.01181},
+  year={2022}
+}
+```
