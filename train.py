@@ -32,7 +32,7 @@ def get_args():
     
     # Training schedule settings
     parser.add_argument('--batch-size', default=128, type=int)
-    parser.add_argument('--data-dir', default='../data', type=str)
+    parser.add_argument('--data-dir', default='/path/to/datasets/', type=str)
     parser.add_argument('--epochs', default=30, type=int)
     parser.add_argument('--lr-schedule', default='cyclic', choices=['cyclic', 'multistep'])
     parser.add_argument('--lr-min', default=0., type=float)
@@ -67,10 +67,10 @@ def get_args():
 
     
     # Config paths
-    parser.add_argument('--out-dir', default='/tmp-network/user/pdejorge/N-FGSM/debug/',
+    parser.add_argument('--out-dir', default='/path/to/results/',
                         type=str, help='Output directory')
     parser.add_argument('--root-model-dir',
-                        default='/tmp-network/user/pdejorge/N-FGSM/results/models/',
+                        default='/path/to/trained/models/',
                         type=str, help='Models directory')
     
     parser.add_argument('--seed', default=0, type=int, help='Random seed')
