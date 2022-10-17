@@ -20,10 +20,12 @@ The configurations for all datasets, models and epsilon radii can be found in `e
 If you use this code, please consider citing:
 
 ```
-@article{de2022make,
-  title={Make Some Noise: Reliable and Efficient Single-Step Adversarial Training},
-  author={de Jorge, Pau and Bibi, Adel and Volpi, Riccardo and Sanyal, Amartya and Torr, Philip HS and Rogez, Gr{\'e}gory and Dokania, Puneet K},
-  journal={arXiv preprint arXiv:2202.01181},
-  year={2022}
+@inproceedings{
+jorge2022make,
+title={Make Some Noise: Reliable and Efficient Single-Step Adversarial Training},
+author={Pau de Jorge and Adel Bibi and Riccardo Volpi and Amartya Sanyal and Philip Torr and Gr{\'e}gory Rogez and Puneet K. Dokania},
+booktitle={Thirty-Sixth Conference on Neural Information Processing Systems},
+year={2022},
+url={https://openreview.net/forum?id=NENo__bExYu}
 }
 ```
